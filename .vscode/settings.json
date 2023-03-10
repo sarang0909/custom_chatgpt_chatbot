@@ -1,0 +1,7 @@
+{
+    "python.defaultInterpreterPath": "C:\\Users\\metes\\anaconda3\\envs\\custom_chatgpt_chatbot\\python.exe",
+    "python.terminal.activateEnvironment": true,
+    "python.formatting.provider": "black",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true
+}
