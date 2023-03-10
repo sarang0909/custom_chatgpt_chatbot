@@ -1,7 +1,11 @@
 # Custom Chatgpt Chatbot
 
 
-## About  
+
+https://user-images.githubusercontent.com/31824267/224348735-99eb07af-e093-46d1-a56b-6c7717946e5d.mp4
+
+
+## About 
 This is a project developed to create a chatbot based on recently released chatgpt api(March 1st,2023). 
 This is a robust chatbot which can accept any website URL and then can answer any questions related to that website.  
 
@@ -14,13 +18,13 @@ This is a robust chatbot which can accept any website URL and then can answer an
   c. Whole internet(like a general chatgpt)     
 
 ### Chatbot Core Logic Steps   
-1. Accpet any website URL, scrape all pages within the same domain of that website     
+1. Accept any website URL, scrape all pages within the same domain of that website     
 2. Create embeddings of text data of that website     
 3. User asks a query      
 4. Generate user query embeddings      
 4. Look for an answer in chat history using openai's chat completion api     
 5. If answer not found,then find most relevant website data embeddings(using cosine similarity).      
-  Append this most relvant text to chat history and again use chat completion api to get the answer       
+  Append this most relevant text to chat history and again use chat completion api to get the answer       
 6. If still answer not found(it is most likey a random query) then, chatgpt can answer as it does usually(use whole internet)         
 
 
@@ -77,8 +81,8 @@ Here we have created User Interface and used flask for api creation.
       python main.py       
   ```
   Open 'http://localhost:5000' in a browser.
-![alt text](docs/fastapi_first.jpg?raw=true)
-![alt text](docs/fastapi_second.jpg?raw=true)
+![alt text](docs/first.jpg?raw=true)
+![alt text](docs/second.jpg?raw=true)
  
 
 ### Black- Code formatter
